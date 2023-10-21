@@ -6,7 +6,7 @@ The first homework was to create this repository within the specified guidelines
 
 ## [Homework 2](/hw2_rgbLedPotentiometer/)
 
-The second homework was about creating a dimmable RGB led using three potentiometers that controls every color channel of the led. The homework working concept and circuit presentation can be found here [(click me)](). The circuit diagram is represented here:
+The second homework was about creating a dimmable RGB led using three potentiometers that controls every color channel of the led. The homework working concept and circuit presentation can be found here [(click me)](https://www.youtube.com/watch?v=i8qvw5pMxZ8). The circuit diagram is represented here:
 
 ![diagram](/static/hw2/diagram.png)
 
