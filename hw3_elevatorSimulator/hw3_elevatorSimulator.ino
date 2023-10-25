@@ -54,11 +54,16 @@ void loop() {
     if (!closingDoorTime && !liftStatus) {
       closingDoorTime = millis();
     }
-    if ((millis() - closingDoorTime) < MAX_CLOSING_DOOR_TIME && closingDoorTime != millis()) {
+    if (abs(millis() - closingDoorTime) < MAX_CLOSING_DOOR_TIME && !liftStatus) {
+      Serial.println("Closing door");
+      Serial.print("Current millis: ");
+      Serial.print(millis());
+      Serial.print(" closing door millis: ");
+      Serial.println(closingDoorTime);
       tone(buzzerPin, NOTE_G6);
     }
     
-    if ((millis() - closingDoorTime) >= MAX_CLOSING_DOOR_TIME && !liftStatus) {
+    if (abs(millis() - closingDoorTime) >= MAX_CLOSING_DOOR_TIME && !liftStatus) {
       liftStatus = 1; // set to tranzit through floors
       transitTime = millis();
       noTone(buzzerPin);
@@ -74,7 +79,7 @@ void loop() {
 
       if ((millis() - transitTime) % TRANSIT_MOVE_LIFT == 0 && transitTime != millis()) {
         if (decisionQueue[queueIndex + 1] > currentFloor) {
-          Serial.println("Urcare");
+          Serial.println("Going up");
           Serial.print("Current millis: ");
           Serial.print(millis());
           Serial.print(" transit time millis: ");
@@ -83,7 +88,7 @@ void loop() {
           currentFloor += 1;
           updateFloorsLedStatus(currentFloor);
         } else if (decisionQueue[queueIndex + 1] < currentFloor) {
-          Serial.println("Coborare");
+          Serial.println("Going down");
           Serial.print("Current millis: ");
           Serial.print(millis());
           Serial.print(" transit time millis: ");
