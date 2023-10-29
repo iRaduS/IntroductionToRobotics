@@ -10,4 +10,8 @@ The second homework was about creating a dimmable RGB led using three potentiome
 
 ![diagram](/static/hw2/diagram.png)
 
+## [Homework 3](/hw3_elevatorSimulator/)
 
+The third homework was about creating an elevator simulator using three rgb leds denoting the ground, first and second floor a status led for showing that the elevator is ascending or descending and also a buzzer to show when the lift is closing doors or is moving. BONUS! I used a 7-segment display to show the current floor of the lift. The demo of the homework can be found here [(click me)](https://www.youtube.com/watch?v=bSqYU4KW1P0)
+
+![diagram](/static/hw3/setup.jpg)
