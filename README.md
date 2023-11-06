@@ -15,3 +15,9 @@ The second homework was about creating a dimmable RGB led using three potentiome
 The third homework was about creating an elevator simulator using three rgb leds denoting the ground, first and second floor a status led for showing that the elevator is ascending or descending and also a buzzer to show when the lift is closing doors or is moving. BONUS! I used a 7-segment display to show the current floor of the lift. The demo of the homework can be found here [(click me)](https://www.youtube.com/watch?v=bSqYU4KW1P0)
 
 ![diagram](/static/hw3/setup.jpg)
+
+## [Homework 4](/hw4_7segDisplayDrawing/)
+
+The fourth homework of the IoR course was to design a circuit that integrates a joystick which is used to draw across a 7 segment display. If the switch of the joystick is pressed then a segment on the display should be activated but if the switch is pressed for more than 3 seconds then the draw restarts and all the segments are given a reset. The demo of the homework can be found here [(click me)](https://www.youtube.com/watch?v=gs0YgoyrTTg)
+
+![diagram](/static/hw4/setup.jpeg)
