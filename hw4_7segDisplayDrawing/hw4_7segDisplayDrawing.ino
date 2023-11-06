@@ -58,6 +58,7 @@ const unsigned int SEGMENT_ON_INTERVAL = 500;
 // Declare the array of the segments that are light up or not
 bool isActivatedSegment[segSize];
 bool restartSequenceInitiated = false;
+const unsigned int RESTART_TIME = 3000;
 
 // Declare the joystick debounce variables
 unsigned long lastDebounceTime = 0, restartTime = 0;
@@ -223,7 +224,7 @@ void debounceButton() {
         restartTime = millis();
       }
     } else {
-      if (reading == LOW && (millis() - restartTime) >= 3000 && !restartSequenceInitiated) {
+      if (reading == LOW && (millis() - restartTime) >= RESTART_TIME && !restartSequenceInitiated) {
         restartSequenceInitiated = true;
         currentSegment = pDP;
 
