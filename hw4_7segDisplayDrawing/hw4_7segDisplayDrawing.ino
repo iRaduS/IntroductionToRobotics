@@ -214,7 +214,7 @@ void debounceButton() {
             continue;
           }
 
-          isActivatedSegment[i] = true;
+          isActivatedSegment[i] = !isActivatedSegment[i];
         }
       } else if (buttonState == HIGH && restartSequenceInitiated) {
         restartSequenceInitiated = false;
