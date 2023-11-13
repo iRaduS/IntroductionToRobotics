@@ -40,7 +40,7 @@ The fourth homework of the IoR course was to design a circuit that integrates a 
 
 ## [Homework 5](/hw5_stopWatch/)
 <details open>
-<summary>Get details for homework 4</summary>
+<summary>Get details for homework 5</summary>
 <br>
 
 The fifth homework of the IoR course was to design a circuit that integrates 4 digit 7 segment display, a shift registry and 3 buttons. The entire circuit should emulate a stopwatch that can register laps, reset and start from a lap. The demo of the homework can be found here [(click me)](https://youtu.be/0XIp1D5KkbA)
