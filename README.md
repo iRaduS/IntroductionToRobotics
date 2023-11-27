@@ -39,12 +39,32 @@ The fourth homework of the IoR course was to design a circuit that integrates a 
 </details>
 
 ## [Homework 5](/hw5_stopWatch/)
-<details open>
+<details>
 <summary>Get details for homework 5</summary>
 <br>
 
 The fifth homework of the IoR course was to design a circuit that integrates 4 digit 7 segment display, a shift registry and 3 buttons. The entire circuit should emulate a stopwatch that can register laps, reset and start from a lap. The demo of the homework can be found here [(click me)](https://youtu.be/0XIp1D5KkbA)
 
 ![diagram](/static/hw5/setup.jpeg)
+
+</details>
+
+## [Homework 6](/hw6_envMonitorLogger/)
+<details>
+<summary>Get details for homework 6</summary>
+<br>
+
+The sixth homework of the IoR course was to design a circuit that has a photoresistor and also learn how to use the EEPROM inside the arduino.
+
+</details>
+
+## [Homework 7](/hw7_matrixGame/)
+<details open>
+<summary>Get details for homework 7</summary>
+<br>
+
+The seventh homework of the IoR course was to design a circuit that acts like a minigame, I chose a variation of Bomberman.
+
+![diagram](/static/hw7/setup.jpeg)
 
 </details>
