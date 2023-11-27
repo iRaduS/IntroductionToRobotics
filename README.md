@@ -63,7 +63,7 @@ The sixth homework of the IoR course was to design a circuit that has a photores
 <summary>Get details for homework 7</summary>
 <br>
 
-The seventh homework of the IoR course was to design a circuit that acts like a minigame, I chose a variation of Bomberman.
+The seventh homework of the IoR course was to design a circuit that acts like a minigame, I chose a variation of Bomberman. The demo of the homework can be found here [(click me)](https://youtu.be/rbky5zxQDKE)
 
 ![diagram](/static/hw7/setup.jpeg)
 
